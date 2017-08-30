@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-23 13:48+0100\n"
+"PO-Revision-Date: 2017-02-23 13:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front/config.form.php:24 front/server.form.php:24
+msgid "No permission"
+msgstr "No autorizado"
+
+#: front/config.form.php:27
+msgid "Saving configuration..."
+msgstr "Guardando configuración..."
+
+#: front/config.form.php:35 front/server.form.php:45
+msgid "Error on save"
+msgstr "Error al guardar"
+
+#: front/config.form.php:39
+msgid "Configuration saved"
+msgstr "Configuración guardada"
+
+#: hook.php:51 inc/config.class.php:32 setup.php:50
+msgid "DNS Inventory"
+msgstr "Inventario DNS"
+
+#: inc/config.class.php:38
+msgid "DNS Inventory plugin"
+msgstr "Plugin Inventario DNS"
+
+#: inc/config.class.php:55
+msgid "DNS Inventory Setup"
+msgstr "Configuración Inventario DNS"
+
+#: inc/config.class.php:59
+msgid "DNS Servers"
+msgstr "Servidores DNS"
+
+#: inc/cron.class.php:17
+msgid "DNS Inventory Cron"
+msgstr "Cron Inventario DNS"
+
+#: inc/server.class.php:36
+msgid "DNS Server name"
+msgstr "Nombre servidor DNS"
+
+#: inc/server.class.php:42
+msgid "DNS Server Address"
+msgstr "Dirección servidor DNS"
+
+#: inc/server.class.php:66
+msgid "Name"
+msgstr "Nombre"
+
+#: inc/server.class.php:71
+msgid "Address"
+msgstr "Dirección"
+
+#: setup.php:64
+msgid "This plugin requires GLPI >= 0.90"
+msgstr "Este complemento requiere GLPI >= 0.90"
+
+#: setup.php:85
+msgid "Installed / not configured"
+msgstr "Instalado / no configurado"
+
+#~ msgid "DNS Server"
+#~ msgstr "Servidor DNS"
+
+#~ msgid "Server"
+#~ msgstr "Servidor"
+
+#~ msgid "Appliance"
+#~ msgstr "Aplicación"
+
+#~ msgid "Backup interval must be a number."
+#~ msgstr "El intervalo de tiempo de copia de seguridad debe ser un número."
+
+#~ msgid "NEBackup - SNMP auth (R/W)"
+#~ msgstr "NEBackup - Autentificación SNMP (L/E)"
+
+#~ msgid "NEBackup - Backup"
+#~ msgstr "NEBackup - Copia de Seguridad"
+
+#~ msgid "Backup"
+#~ msgstr "Copia de Seguridad"
+
+#~ msgid "Only SNMP v2c is supported"
+#~ msgstr "Solamente SNMP v2c es soportado"
+
+#~ msgid "The network equipment does not respond to the ping"
+#~ msgstr "El equipo de red no responde al ping"
+
+#~ msgid "The network equipment returned status failed"
+#~ msgstr "El equipo de red ha devuelta estado failed"
+
+#~ msgid "Invalid password"
+#~ msgstr "Contraseña inválida"
+
+#~ msgid "Unknown error"
+#~ msgstr "Error desconocido"
+
+#~ msgid "Timeout expired"
+#~ msgstr "Tiempo de espera agotado"
+
+#~ msgid "NEBackup"
+#~ msgstr "NEBackup"
+
+#~ msgid "NEBackup plugin"
+#~ msgstr "Plugin NEBackup"
+
+#~ msgid "nebackup"
+#~ msgstr "nebackup"
+
+#~ msgid "Backup of network equipments configuration"
+#~ msgstr "Copia de seguridad de la configuración de equipos de red"
+
+#~ msgid "NEBackup Setup"
+#~ msgstr "Configuración de NEBackup"
+
+#~ msgid "Backup interval: "
+#~ msgstr "Intervalo de copia de seguridad:"
+
+#~ msgid "Root path in TFTP server: "
+#~ msgstr "Ruta raíz en el servidor TFTP: "
+
+#~ msgid "(Default: \"backup/{entity}\")"
+#~ msgstr "(Por defecto: \"backup/{entity}\")"
+
+#~ msgid "(Tags: \"{entity}\": the name of the entity, \"{manufacturer}\": manufacturer tag like cisco, hpprocurve, etc.)"
+#~ msgstr "(Etiquetas: \"{entity}\": el nombre de la entidad, \"{manufacturer}\": etiqueta del fabricante como cisco, hpprocurve, etc.)"
+
+#~ msgid "Timeout: "
+#~ msgstr "Tiempo de espera: "
+
+#~ msgid "Use FusionInventory SNMP authentication: "
+#~ msgstr "Usar autentificación SNMP de FusionInventory: "
+
+#~ msgid "Select type to switch backup: "
+#~ msgstr "Selecciona el tipo para la copia de seguridad de switches:"
+
+#~ msgid "Manufacturers"
+#~ msgstr "Fabricantes"
+
+#~ msgid "Select manufacturer for "
+#~ msgstr "Seleccione el fabricante para "
+
+#~ msgid " network equipments: "
+#~ msgstr " en la electrónica de red"
+
+#~ msgid "To activate the backup go to the entity configuration and select the NEBackup tab, click here to go: "
+#~ msgstr "Para activar la copia de seguridad vaya a la configuración de la entidad y seleccione la pestaña NEBackup, haga clic aquí para ir: "
+
+#~ msgid "Entities"
+#~ msgstr "Entidades"
+
+#~ msgid "Entity"
+#~ msgstr "Entidad"
+
+#~ msgid "TFTP server"
+#~ msgstr "Servidor TFTP"
+
+#~ msgid "SNMP Community"
+#~ msgstr "Comunidad SNMP"
+
+#~ msgid "FusionInventory Plugin is installed and active, it is not necesary"
+#~ msgstr "El complemento FusionInventory está instalado y activo, esto no es necesario"
+
+#~ msgid "Telnet password (only for HP Procurve)"
+#~ msgstr "Contraseña de Telnet (solo para HP Procurve)"
+
+#~ msgid "Once you have configured the entity you can go to automatic actions to run for the first time: "
+#~ msgstr "Una vez que haya configurado la entidad, puede ir a tareas automáticas para ejecutar por primera vez: "
+
+#~ msgid "NEBackup Task"
+#~ msgstr "Tarea NEBackup"
+
+#~ msgid "Network Equipment"
+#~ msgstr "Equipamiento de Red"
+
+#~ msgid "No backup configured or supported for this manufacturer, currently only support these: "
+#~ msgstr "No hay copia de seguridad configurada o soportada para este fabricante, actualmente solo se soportan estos: "
+
+#~ msgid "No backup configured for this entity."
+#~ msgstr "No hay copia de seguridad configurada para esta entidad."
+
+#~ msgid "Database Error"
+#~ msgstr "Error de la base de datos"
+
+#~ msgid "TFTP server "
+#~ msgstr "Servidor TFTP"
+
+#~ msgid "File: "
+#~ msgstr "Archivo: "
+
+#~ msgid "File Date: "
+#~ msgstr "Fecha del archivo: "
+
+#~ msgid "(Warning: File not copied at last run)"
+#~ msgstr "(Alerta: archivo no copiado en la última ejecución)"
+
+#~ msgid "Last run: "
+#~ msgstr "Última ejecución: "
+
+#~ msgid "Error: "
+#~ msgstr "Error: "
+
+#~ msgid "No error"
+#~ msgstr "Sin errores"
+
+#~ msgid "TFTP Server: "
+#~ msgstr "Servidor TFTP: "
+
+#~ msgid "Server path: "
+#~ msgstr "Ruta del servidor: "
+
+#~ msgid "Install TFTP client on server to view the backup file"
+#~ msgstr "Instalar cliente TFTP en el servidor para ver el fichero de copia de seguridad"
+
+#~ msgid "Transfer timed out, check if your TFTP server is up."
+#~ msgstr "Tiempo de espera de la transferencia agotado, comprueba si tu servidor TFTP está activo."
+
+#~ msgid "Backup file not found."
+#~ msgstr "Fichero de copia de seguridad no encontrado."
+
+#~ msgid "Configuration of the SNMP authentication"
+#~ msgstr "Configuración de la autentificación SNMP"
+
+#~ msgid "SNMP authentication (READ/WRITE community): "
+#~ msgstr "Autentificación SNMP (comunidad de LECTURA y ESCRITURA): "
+
+#~ msgid "Update"
+#~ msgstr "Actualizar"
+
+#~ msgid "You must activate the option"
+#~ msgstr "Debes activar la opción"
+
+#~ msgid "Errors report"
+#~ msgstr "Reporte de erroes"
+
+#~ msgid "Errors"
+#~ msgstr "Errores"
+
+#~ msgid "Network Equipment Name: "
+#~ msgstr "Nombre del equipo de red: "
+
+#~ msgid "Date of last copy: "
+#~ msgstr "Fecha de la última copia: "
+
+#~ msgid "- Empty -"
+#~ msgstr "- Vacio -"
+
+#~ msgid "The switch does not respond to the ping"
+#~ msgstr "El switch no responde al ping"
+
+#~ msgid "the switch returned status failed"
+#~ msgstr "el switch retornó estado: failed"
+
+#~ msgid "timeout expired"
+#~ msgstr "tiempo de espera agotado"
+
+#~ msgid "No backup for this manufacturer, currently only support these: "
+#~ msgstr "No hay copia de seguridad para este fabricante, actualmente solo se soportan estos: "
+
+#~ msgid "(Default: \"backup/{manufacturer}/{entitie}\")"
+#~ msgstr "(Por defecto: \"backup/{manufacturer}/{entitie}\")"
+
+#~ msgid "Root path in TFTP server (without initial \"/\"): "
+#~ msgstr "Ruta raíz en el servidor TFTP (sin la barra inicial \"/\"): "
+
+#~ msgid "SNMP authentication (READ/WRITE community)"
+#~ msgstr "Autentificación SNMP (comunidad de LECTURA y ESCRITURA)"
+
+#~ msgid "SNMP authentication"
+#~ msgstr "Autentificación SNMP"
+
+#~ msgid "No backup for this manufacturer."
+#~ msgstr "No hay copia de seguridad para este fabricante."
+
+#~ msgid "Backup Information"
+#~ msgstr "Información de la Copia de Seguridad"
+
+#~ msgid "Download backup"
+#~ msgstr "Descargar copia de seguridad"
+
+#~ msgid "Backup Information (from NEBackup plugin)"
+#~ msgstr "Información de la copia de seguridad (desde el complemento NEBackup)"
+
+#~ msgid "hours"
+#~ msgstr "horas"
+
+#~ msgid "Backup file not found"
+#~ msgstr "Fichero de copia de seguridad no encontrado"
+
+#~ msgid "You must delete the configuration in the parent entity to delete this configuration."
+#~ msgstr "Debe eliminar la configuración de la entidad padre para eliminar esta configuración."
+
+#~ msgid "Once you have configured the entity you can go to automatic actions to run for the first time (select nebackup action and run it): "
+#~ msgstr "Una vez que haya configurado la entidad, puede ir a tareas automáticas para ejecutarla por primera vez (seleccione la acción nebackup y ejecútela): "
+
+#~ msgid "Automatic actions"
+#~ msgstr "Tareas automáticas"

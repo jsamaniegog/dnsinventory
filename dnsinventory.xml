@@ -1,0 +1,48 @@
+<root>
+    <name>DNS Inventory</name>
+    <key>dnsinventory</key>
+    <state>stable</state>
+    <logo>https://raw.githubusercontent.com/jsamaniegog/nebackup/master/pics/logo.gif</logo>
+    <description>
+        <short>
+            <es>Actualización de nombres obteniendo información del servidor DNS.</es>
+            <en>Update names getting the information from DNS server</en>
+        </short>
+        <long>
+            <es>Actualización de nombres obteniendo información del servidor DNS.</es>
+            <en>Update names getting the information from DNS server.</en>
+        </long>
+    </description>
+    <homepage>https://github.com/jsamaniegog/nebackup</homepage>
+    <download>https://github.com/jsamaniegog/nebackup/releases/latest</download>
+    <issues>https://github.com/jsamaniegog/nebackup/issues</issues>
+    <readme>https://github.com/jsamaniegog/nebackup/blob/master/README.md</readme>
+    <authors>
+        <author>Javier Samaniego García</author>
+    </authors>
+    <versions>
+        <version>
+            <num>1.0.0</num>
+            <compatibility>0.90.x</compatibility>
+            <compatibility>9.1</compatibility>
+        </version>
+    </versions>
+    <langs>
+        <lang>es_ES</lang>
+        <lang>en_GB</lang>
+    </langs>
+    <license>GPL v2+</license>
+    <tags>
+        <es>
+            <tag>dns</tag>
+            <tag>red</tag>
+        </es>
+        <en>
+            <tag>dns</tag>
+            <tag>network</tag>
+        </en>
+    </tags>
+    <!--<screenshots>-->
+    <!--<screenshot></screenshot>-->
+    <!--</screenshots>-->
+</root>
