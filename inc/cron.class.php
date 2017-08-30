@@ -125,7 +125,13 @@ class PluginDnsinventoryCron extends CommonDBTM {
             ));
             
             if ($resultado === false) {
-                $task->log(__("Error updating IP address ", "dnsinventory") . $data['ipaddress'] . " name to " . $hostname);
+                $task->log(__("Error updating IP address ", "dnsinventory") . $data['ipaddress'] . __(" name to ", "dnsinventory") . $hostname);
+            } else {
+                $task->log(
+                    __("Network name updated. Name:", "dnsinventory") . " $hostname, " 
+                    . __("IP address:", "dnsinventory") . " " . $data['ipaddress'] . ", " 
+                    . __("Domain:", "dnsinventory") . " " . $fqdns->fields['fqdn']
+                );
             }
         }
         
