@@ -49,10 +49,6 @@ function plugin_dnsinventory_install() {
             'logs_lifetime' => '7' // days
         )
     );
-
-    if (!$res) {
-        $res = $res;
-    }
     
     return true;
 }
