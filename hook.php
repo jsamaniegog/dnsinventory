@@ -45,7 +45,8 @@ function plugin_dnsinventory_install() {
         3600, 
         array(
             'comment' => __('Query to DNS servers for network names.', 'dnsinventory'),
-            'mode' => CronTask::MODE_EXTERNAL
+            'mode' => CronTask::MODE_EXTERNAL,
+            'logs_lifetime' => '7' // days
         )
     );
 
