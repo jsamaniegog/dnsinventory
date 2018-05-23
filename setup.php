@@ -48,7 +48,7 @@ function plugin_init_dnsinventory() {
  */
 function plugin_version_dnsinventory() {
     return array('name' => __('DNS Inventory', 'dnsinventory'),
-        'version' => '1.0.0',
+        'version' => '1.1.0',
         'author' => 'Javier Samaniego',
         'license' => 'AGPLv3+',
         'homepage' => 'https://github.com/jsamaniegog/dnsinventory',

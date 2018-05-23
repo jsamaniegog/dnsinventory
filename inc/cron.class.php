@@ -58,21 +58,19 @@ class PluginDnsinventoryCron extends CommonDBTM {
                 $sons = getSonsOf("glpi_entities", $server['entities_id']);
                 foreach ($sons as $value) {
                     $entities_with_server[] = $value;
+                    if ($value != $server['entities_id']) {
+                        $server_addreses[$value][] = $server['address'];
+                    }
                 }
             }
             
-            $server_addreses[] = $server['address'];
+            $server_addreses[$server['entities_id']][] = $server['address'];
         }
         
         if (empty($server_addreses)) {
             $task->log(__("No DNS server configured.", "dnsinventory"));
             return false;
         }
-        
-        $dns_resolver = new Net_DNS2_Resolver(array(
-            'nameservers'   => $server_addreses,
-            'ns_random'     => true
-        ));
         
         // get current limit scanned
         $config = new PluginDnsinventoryConfig();
@@ -81,7 +79,7 @@ class PluginDnsinventoryCron extends CommonDBTM {
         $current_limit = $current_limit[0];
         
         // search for ip address (limit self::NUMBER_NETWORKNAMES_SCANNED)
-        $sql = "select ip.name ipaddress, nn.id, nn.name from glpi_ipaddresses ip, glpi_networknames nn "
+        $sql = "select ip.name ipaddress, nn.id, nn.name, ip.entities_id from glpi_ipaddresses ip, glpi_networknames nn "
             //. "where (nn.name is null or nn.name = '') "
             . "where ip.items_id = nn.id "
             . "and ip.itemtype ='NetworkName' "
@@ -94,6 +92,12 @@ class PluginDnsinventoryCron extends CommonDBTM {
         $reset_limit = true;
         
         foreach ($DB->request($sql) as $data) {
+            
+            $dns_resolver = new Net_DNS2_Resolver(array(
+                'nameservers'   => $server_addreses[$data['entities_id']],
+                'ns_random'     => true
+            ));
+            
             $reset_limit = false;
             $task->addVolume(1);
             
