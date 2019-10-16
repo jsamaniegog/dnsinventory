@@ -119,7 +119,7 @@ class PluginDnsinventoryCron extends CommonDBTM {
             
             // update networkname in database
             $fqdns = new FQDN();
-            $fqdns->getFromDBByQuery("WHERE fqdn = '" . $domain ."'");
+            $fqdns->getFromDB("WHERE fqdn = '" . $domain ."'");
             
             $networkname = new NetworkName();
             $resultado = $networkname->update(array(
